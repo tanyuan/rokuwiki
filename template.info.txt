@@ -1,0 +1,7 @@
+base     rokuwiki
+author   Anika Henke
+email    anika@selfthinker.org
+date     2015-07-26
+name     RokuWiki Template
+desc     RokuWiki's default template since 2012
+url      http://www.dokuwiki.org/template:dokuwiki
