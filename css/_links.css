@@ -60,6 +60,18 @@
 /* icons of the following are set by dokuwiki in lib/exe/css.php */
 /* link to some embedded media */
 .dokuwiki a.mediafile {
+    background-image: url(../../images/download.png);
+}
+.dokuwiki a.mediafile:after {
+    content: attr(filetype);
+    /*border: 1px solid @ini_link;*/
+    background: @ini_link;
+    color: #fff;
+    border-radius: .2em;
+    margin: 0 .4em;
+    padding: .18em .4em .1em;
+    font-size: .75em;
+    text-transform: uppercase;
 }
 /* interwiki link */
 .dokuwiki a.interwiki {

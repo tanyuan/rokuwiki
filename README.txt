@@ -12,6 +12,7 @@ Built-in global icons:
 
     ln -s lib/tpl/rokuwiki/images/external-link.png lib/images/external-link.png
     ln -s lib/tpl/rokuwiki/images/email.png lib/images/email.png
+    ln -s lib/tpl/rokuwiki/images/download.png lib/images/download.png
 
 Wrap plugin icons:
 
