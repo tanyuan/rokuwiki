@@ -37,7 +37,7 @@
 
 .dokuwiki a.windows,
 .dokuwiki a.mail,
-.dokuwiki a.mediafile,
+.dokuwiki .page a.mediafile,
 .dokuwiki a.interwiki {
     background-repeat: no-repeat;
     background-position: 0 center;
@@ -59,12 +59,11 @@
 
 /* icons of the following are set by dokuwiki in lib/exe/css.php */
 /* link to some embedded media */
-.dokuwiki a.mediafile {
+.dokuwiki .page a.mediafile {
     background-image: url(../../images/download.png);
 }
-.dokuwiki a.mediafile:after {
+.dokuwiki .page a.mediafile:after {
     content: attr(filetype);
-    /*border: 1px solid @ini_link;*/
     background: @ini_link;
     color: #fff;
     border-radius: .2em;
