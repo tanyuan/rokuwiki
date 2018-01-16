@@ -48,8 +48,9 @@
   width: 400px;
   text-align: center;
   border: 1px solid @ini_border;
-  padding: 0.5em;
-  margin: auto;
+  border-radius: .28em;
+  padding: 1.4em;
+  margin: 0 auto 1.4em;
 }
 
 
@@ -69,8 +70,8 @@
  * Styles for auth forms
  */
 #dw__login label[for="remember__me"] {
-    margin-left: 50%;
     margin-bottom: 1.4em;
+    text-align: center;
 }
 #dw__login fieldset,
 #dw__resendpwd fieldset,
@@ -80,6 +81,11 @@
 #dw__profiledelete {
     display: block;
     margin-top: 2.8em;
+}
+
+#dw__login input.edit,
+#dw__login select.edit {
+  margin-right: 4em;
 }
 
 /**
