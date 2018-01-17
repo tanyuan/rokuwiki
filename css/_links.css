@@ -46,7 +46,7 @@
 }
 /* external link */
 .dokuwiki a.urlextern {
-    background-image: url(../../images/external-link.png);
+    background-image: url(images/external-link.png);
 }
 /* windows share */
 .dokuwiki a.windows {
@@ -54,13 +54,13 @@
 }
 /* email link */
 .dokuwiki a.mail {
-    background-image: url(../../images/email.png);
+    background-image: url(images/email.png);
 }
 
 /* icons of the following are set by dokuwiki in lib/exe/css.php */
 /* link to some embedded media */
 .dokuwiki .page a.mediafile {
-    background-image: url(../../images/download.png);
+    background-image: url(images/download.png);
 }
 .dokuwiki .page a.mediafile:after {
     content: attr(filetype);
